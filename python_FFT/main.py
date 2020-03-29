@@ -8,10 +8,7 @@ Created on Fri Oct 11 00:47:12 2019
 import numpy as np
 import matplotlib.pyplot as plt
 import serial
-# Port série ttyACM0
-# Vitesse de baud : 9600
-# Timeout en lecture : 1 sec
-# Timeout en écriture : 1 sec
+
 number_data_max = 5
 number_data = 0
 buffer = np.zeros(shape=(5,1))
